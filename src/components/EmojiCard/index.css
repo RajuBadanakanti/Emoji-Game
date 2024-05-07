@@ -1,0 +1,76 @@
+/* Write your code here. */
+.emoji-list-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #ffffff33;
+  border-radius: 20px;
+
+  background-color: #ffffff33;
+  height: 200px;
+  width: 200px;
+  padding: 25px;
+  margin: 6px;
+}
+.emoji-png {
+  height: 95px;
+  width: 95px;
+}
+.emoji-btn {
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and ((min-width: 768px) and (max-width:991px)) {
+  .emoji-list-card {
+    height: 150px;
+    width: 150px;
+  }
+  .emoji-png {
+    height: 90px;
+    width: 90px;
+  }
+  .emoji-btn {
+    background-color: transparent;
+    height: 90px;
+    width: 90px;
+    border: 0px solid;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+/* Mobile Device >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 767px) {
+  .emoji-list-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff33;
+    border-radius: 20px;
+
+    background-color: #ffffff33;
+    height: 80px;
+    width: 80px;
+    margin: 4px;
+  }
+  .emoji-png {
+    height: 40px;
+    width: 40px;
+  }
+  .emoji-btn {
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border: 0px solid;
+    outline: none;
+    cursor: pointer;
+  }
+}

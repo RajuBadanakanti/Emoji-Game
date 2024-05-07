@@ -1,0 +1,94 @@
+/* Write your code here. */
+.navbar-container {
+  height: 10vh;
+  width: 100%;
+  background-color: #ffffff33;
+  padding: 10px;
+  position: fixed;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+}
+.logo-image {
+  height: 60px;
+  width: 60px;
+}
+.logo-title {
+  font-family: 'roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.scores-conatainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 70px;
+}
+.score {
+  font-family: 'roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.top-score {
+  font-family: 'roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 15px;
+}
+/* mobile Device >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media screen and (max-width: 767px) {
+  .logo-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .logo-image {
+    height: 24px;
+    width: 24px;
+  }
+  .logo-title {
+    font-family: 'roboto';
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .scores-conatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .score {
+    font-family: 'roboto';
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .top-score {
+    font-family: 'roboto';
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
